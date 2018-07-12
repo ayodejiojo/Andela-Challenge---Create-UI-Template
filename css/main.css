@@ -20,6 +20,48 @@ ul{
 	padding: 0;
 }
 
+/* for entry from user*/
+.button_3{
+	border-radius: 5px;
+	height: 40px;
+	font-size: 20px;
+	padding-right: : 30px;
+	padding-left: 2px;
+	background-color:#03A9F4;
+	color: #fff;
+	margin-top: 20px;
+	width: 150px;
+}
+
+
+
+.button_1{
+	border-radius: 5px;
+	height: 40px;
+	font-size: 20px;
+	padding-right: : 30px;
+	padding-left: 2px;
+	background-color:#03A9F4;
+	color: #fff;
+	margin-top: 20px;
+	width: 80px;
+}
+
+/* General button*/
+.button{
+	border-radius: 5px;
+	height: 40px;
+	font-size: 20px;
+	padding-right: : 30px;
+	padding-left: 2px;
+	background-color:#03A9F4;
+	color: #fff;
+	margin-top: 20px;
+	width: 230px;
+}
+
+
+
 /* Header*/
 header{
 	background: #607D8B;
@@ -90,34 +132,13 @@ aside#sidebar{
 }
 
 
-
+/* form Sign up*/
 .form input[type="email"]{
 	margin-top: 20px;
 	height: 25px;
 	border-radius: 10px;
 	width: 200px;
 	padding:10px;
-	
-
-}
-
-
-.form input[type="first"]{
-	margin-top: 20px;
-	height: 25px;
-	border-radius: 10px;
-	width: 200px;
-	padding: 10px;
-	
-}
-
-.form input[type="last"]{
-	
-	margin-top: 20px;
-	height: 25px;
-	border-radius: 10px;
-	width: 200px;
-	padding: 10px;
 }
 
 
@@ -130,23 +151,13 @@ aside#sidebar{
 	padding: 10px;
 }
 
-.button{
-	border-radius: 5px;
-	height: 40px;
-	font-size: 20px;
-	padding-right: : 30px;
-	padding-left: 2px;
-	background-color:#03A9F4;
-	color: #fff;
-	margin-top: 20px;
-	width: 230px;
-}
 
+/* To align text to the center for sign in*/
 	
 .content {
    position: absolute;
 
-    width: 400px;
+    width: 300px;
     height: 400px;
 
     /* Center form on page horizontally & vertically */
@@ -155,41 +166,8 @@ aside#sidebar{
     margin-top: -200px;
     margin-left: -150px;
 }
-.button_1{
-	border-radius: 5px;
-	height: 40px;
-	font-size: 20px;
-	padding-right: : 30px;
-	padding-left: 2px;
-	background-color:#03A9F4;
-	color: #fff;
-	margin-top: 20px;
-	width: 80px;
-}
 
-.button_2{
-	border-radius: 5px;
-	height: 40px;
-	font-size: 20px;
-	padding-right: : 30px;
-	padding-left: 2px;
-	background-color:#03A9F4;
-	color: #fff;
-	margin-top: 20px;
-	width: 80px;
-}
 
-.button_3{
-	border-radius: 5px;
-	height: 40px;
-	font-size: 20px;
-	padding-right: : 30px;
-	padding-left: 2px;
-	background-color:#03A9F4;
-	color: #fff;
-	margin-top: 20px;
-	width: 150px;
-}
 
 
 
@@ -204,6 +182,7 @@ aside#sidebar{
 	margin-bottom: 10px;
 }
 
+/* for content in home*/
 
 #story h1{
 	padding: 40px;
@@ -212,19 +191,8 @@ aside#sidebar{
 }
 
 
-.content {
-   position: absolute;
 
-    width: 300px;
-    height: 400px;
-
-    /* Center form on page horizontally & vertically */
-    top: 50%;
-    left: 50%;
-    margin-top: -200px;
-    margin-left: -150px;
-}
-
+/* To align text to the center for Entry*/
 
 .contents {
    position: absolute;
@@ -264,6 +232,8 @@ aside#sidebar{
 	padding: 10px;
 }
 
+/* background color for sign in*/
+
 .move{
 	padding: 20px;
 	border-radius: 10px;
@@ -273,6 +243,8 @@ aside#sidebar{
 	margin-bottom: 10px;
 }
 
+
+/* background color for Entry*/
 .entry{
 	padding: 20px;
 	border-radius: 10px;
@@ -283,6 +255,8 @@ aside#sidebar{
 
 }
 
+
+/* Styling for form in Entry*/
 
 .entry input[type="heading"]{
 		
@@ -296,26 +270,65 @@ aside#sidebar{
 }
 
 
-.entry input[type="message"]{
-		
-	margin-top: 20px;
-	height: 25px;
 
-	width: 300px;
+section#text .entry textarea{
+	width: 80%;
 	padding: 30px;
+}
+
+/* for the article in About*/
+
+section#abouts h1{
+	font-size: 30px;
+}
+
+article#about{
+	
+	width: 65%;
+}
+
+ul#list li{
+	list-style: none;
+	padding: 20px;
+	border:#cccccc solid 1px;
 	margin-bottom: 10px;
+	background: #e6e6e6;
 
 }
 
+
+footer .logo{
+		color: #03A9F4;
+}
 
 footer{
 
 	text-align: center;
-	padding: 10px;
+	padding: 5px;
 	margin-top: 100px;
-	background:#607D8B ;
+	background:#35424a; 
 	color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
