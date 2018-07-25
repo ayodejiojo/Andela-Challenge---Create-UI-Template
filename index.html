@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet"  href="./css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<title>MyDiary</title>
 </head>
 <body>
@@ -27,6 +27,7 @@
 	<div id="story">
 
 		<p class="font"><h1>MyDiary helps you pen down your personal memories.</h1></p>
+		<img src="./img/diary.jpg">
 	</div>
 
 <aside id="sidebar">
@@ -35,21 +36,24 @@
 		<h1>Create a new account</h1>
 		<form class="form">
 			<div class="first">
-				<input type="email" placeholder="Enter first name...">
+				<label for="first Name">First Name </label>
+				<input name="first_name" type="text" ">
 			</div>
 			
 			<div class="last">
-				<input type="email" placeholder="Enter last name...">
+				<label for=>Last Name</label>
+				<input name="last_name" type="text" >
 			</div>
+
 			<div class="email">
-				<input type="email" placeholder="Email...">
+				<label>Email</label>
+				<input name="email" type="email" >
 			</div>
 			<div>
-      			  
-       			 <input type="password" id="password" name="password"
-               
-               placeholder="Enter password.." />
-   			 </div>
+      			  <label>Password</label>
+       		<input type="password" id="password" name="password"  />
+   			</div>
+
 			<button class="button" type="submit">Sign Up</button>
 		</form>
 	</div>
@@ -60,6 +64,5 @@
 <footer>
 	<p><span class="logo">My</span>Dairy &copy; 2018</p>
 </footer>
-
 </body>
 </html>
