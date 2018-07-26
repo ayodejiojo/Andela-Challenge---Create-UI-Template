@@ -1,0 +1,480 @@
+
+
+
+
+
+body{
+	font -font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	font -size: 15px;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+/* Global*/
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+#slidebar{
+
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	background: #000;
+	left: -200px;
+	transition: all 500ms linear;
+}
+
+ #slidebar  ul li {
+ color: #fff;
+ list-style: none;
+ padding: 15px 10px;
+  border-bottom:  1px solid rgba(100, 100, 100, 0.3);
+  
+
+}
+
+
+header #slidebar a {
+	list-style: none;
+	text-decoration: none;
+	color: #fff;
+}
+
+header #slidebar a:hover{
+	background: #1E88E5;
+}
+
+
+
+#slidebar .toggle-btn{
+	position: absolute;
+	left: 230px;
+	top:20px;
+}
+
+#slidebar.active{
+	left: 0px;
+}
+
+#slidebar .toggle-btn span{
+	display: block;
+	width: 30px;
+	height: 5px;
+	background: #e8491d;
+	margin: 3px 0px;
+}
+
+/* for entry from user*/
+.button_3{
+	border-radius: 5px;
+	height: 40px;
+	font-size: 20px;
+	padding-right: : 30px;
+	padding-left: 2px;
+	background-color:#03A9F4;
+	color: #fff;
+	margin-top: 20px;
+	width: 150px;
+}
+
+.buttun{
+	border-radius: 5px;
+	height: 40px;
+	font-size: 20px;
+	padding-right: : 30px;
+	padding-left: 2px;
+	background-color:#e8491d;
+	color: #fff;
+	margin-top: 20px;
+	width: 100px;
+	margin-left: 120px;
+}
+
+
+.button_1{
+	border-radius: 5px;
+	height: 40px;
+	font-size: 20px;
+	padding-right: : 30px;
+	padding-left: 2px;
+	background-color:#e8491d;
+	color: #fff;
+	margin-top: 20px;
+	width: 80px;
+	margin-left: 350px;
+}
+
+/* General button*/
+.button{
+	border-radius: 5px;
+	height: 40px;
+	font-size: 20px;
+	padding-right: : 30px;
+	padding-left: 2px;
+	background-color:#e8491d;
+	color: #fff;
+	margin-top: 20px;
+	width: 100px;
+	margin-left: 100px;
+}
+
+
+
+/* Header*/
+header{
+	background: #35424a;
+	color:#fff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom:  #e8491d 3px solid;
+}
+
+header nav a{
+	text-transform: uppercase;
+	color: #fff;
+	list-style: none;
+	text-decoration: none;
+	font-size: 16px;
+	
+}
+
+header nav li{
+	float: left;
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+header #mydiary{
+	float: left;
+
+
+}
+
+header #mydiary h1{
+	font-size: 40px;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+header nav{
+	float: right;
+	padding-top: 30px;
+}
+
+header .logo{
+	color: #e8491d;
+}
+
+
+header nav .logo, header .current a{
+	color: #e8491d;
+	font-weight: bold;
+
+}
+
+header nav a:hover{
+
+	color: #1E88E5;
+	font-weight: bold;
+}
+
+aside#sidebar{
+ 	float: right;
+ 	width: 30%;
+ 	margin-top: 10px;
+ }
+
+ #sidebar h1{
+ 	font-size: 30px;
+ }
+
+
+
+
+
+ #story{
+	float: left;
+	width: 65%;
+}
+
+
+/* form Sign up*/
+.form input[type="email"]{
+	
+	height: 25px;
+	
+	width: 200px;
+	padding:10px;
+	margin-left: 35px;
+	margin-bottom: 30px;
+}
+
+
+
+.form input[type="text"]{
+	margin-bottom: 30px;
+	height: 25px;
+	
+	width: 200px;
+	padding:10px;
+	margin-left: 5px;
+}
+
+
+.form input[type="password"]{
+	margin-left: 10px;
+	margin-bottom: 10px;
+	height: 25px;
+	
+	width: 200px;
+	padding: 10px;
+}
+
+
+/* To align text to the center for sign in*/
+	
+.content {
+   position: absolute;
+
+    width: 300px;
+    height: 400px;
+    
+
+    /* Center form on page horizontally & vertically */
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -150px;
+}
+
+
+ #sidebar label{
+  text-align: right;
+    clear: both;
+    float:left;
+    margin-top: 10px;
+    
+
+ }
+
+
+/* background color for sidebar*/
+
+.form{
+	padding: 10px;
+	width: 1000px;
+	background: #35424a;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+
+/* for content in home*/
+
+#story h1{
+	padding: 40px;
+	font-size: 30px;
+	font-style: italic;
+}
+
+#story img{
+	width: 700px;
+	height: 400px;
+	opacity: 0.50;
+}
+
+
+
+/* To align text to the center for Entry*/
+
+.contents {
+   position: absolute;
+
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+
+    /* Center form on page horizontally & vertically */
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -150px;
+}
+
+
+.content h3{
+	font-size: 30px;
+}
+
+
+/* sign in */
+
+.move input[type="mail"]{
+margin-left: 30px;
+margin-top: 20px;
+	height: 25px;
+	
+	width: 200px;
+	padding: 10px;
+
+}
+ .content label{
+  text-align: right;
+    clear: both;
+    float:left;
+    margin-top: 30px;
+    
+
+ }
+
+.move input[type="password"]{
+	margin-left: 10px;
+	margin-top: 20px;
+	height: 25px;
+	
+	width: 200px;
+	padding: 10px;
+}
+
+/* background color for sign in*/
+
+.move{
+	padding: 20px;
+	width: 350px;
+	border-radius: 10px;
+	background: #35424a;
+	color: #fff;
+	margin-top: 1px;
+	margin-bottom: 10px;
+}
+
+
+/* background color for Entry*/
+.entry{
+	padding: 20px;
+	border-radius: 10px;
+	background: #35424a;
+	color: #fff;
+	margin-top: 1px;
+	margin-bottom: 10px;
+
+}
+
+
+/* Styling for form in Entry*/
+
+.entry input[type="heading"]{
+		
+	margin-top: 20px;
+	height: 25px;
+	
+	width: 50%;
+	padding: 20px;
+	margin-bottom: 30px;
+	margin-left: 45px
+
+}
+
+.contents label{
+  text-align: right;
+    clear: both;
+    float:left;
+    margin-top: 50px;
+    
+
+ }
+
+section#text .entry textarea{
+	width: 60%;
+	padding: 50px;
+	margin-left: 20px;
+}
+
+section h3{
+	 text-align: center;
+}
+
+section h1{
+	text-align: center;
+}
+
+section h4 {
+   
+    color: red;
+    font-size: 20px;
+}
+
+/* for the article in About*/
+article#about{
+	
+	width: 65%;
+}
+
+ul#list li{
+	list-style: none;
+	padding: 20px;
+	border:#cccccc solid 1px;
+	margin-bottom: 30px;
+	background: #e6e6e6;
+
+}
+ #boxes {
+ 	margin-top: 20px;
+
+ }
+
+#boxes .box{
+	float: left;
+	
+	width: 15%;
+	padding: 10px;
+}
+
+.box p{
+		font-size: 20px;
+}
+
+#boxes .verticalLine {
+  display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+
+section nav{
+	float: left
+}
+
+
+
+footer .logo{
+		color: #e8491d;
+}
+
+footer{
+
+	text-align: center;
+	position: relative;
+	padding: 5px;
+	margin-top: 100px;
+	background:#35424a; 
+	color: #fff;
+}

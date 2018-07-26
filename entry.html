@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+
+	<link rel="stylesheet"  href="./css/main.css">
+ <script src="myscript.js"></script>
+<title>MyDiary</title>
+</head>
+<body>
+<header>
+	<div class="container">
+		<div id="mydiary"><h1><span class="logo">My</span>Diary</h1></div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="sign.html">Sign in</a></li>
+				<li class="current"><a href="entry.html">Message</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>	
+	</div>
+
+   <div id="slidebar">
+   	<div class="toggle-btn" onclick="toggleSidebar()">
+   		<span></span>
+   		<span></span>
+   		<span></span>
+   	</div>
+   	<ul>
+   		<li><a href="entry.html">Add Entry</a></li>
+   		<li><a href="modify.html">Modify Entry</a></li>
+   		<li><a href="viewentry.html">View Entries</a></li>
+   		<li><a href="index.html">Log out</a></li>
+   	</ul>
+   </div>
+
+</header>
+
+<section id="text">
+	<div class="contents">
+		<h1>Add Entry</h1>
+		<div >
+			<form class="entry">
+				<div>
+					<label>Title</label>
+					<input type="heading">
+				</div>
+				<div>
+					<label for="textarea">Message</label>
+					<textarea type ="text" rows="5"></textarea>
+
+				</div>
+				
+				<div>
+					<button class="button_1" type="submit">Submit</button>
+						
+				</div>
+			</form>
+		</div>
+	</div>
+</section>
+
+ 
+
+</body>
+</html>
