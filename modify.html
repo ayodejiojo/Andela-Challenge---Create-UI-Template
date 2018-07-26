@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet"  href="./css/main.css">
+	
+	<title>MyDiary</title>
+
+<script src="myscript.js"></script>
+	
+</head>
+<body>
+<header>
+	<div class="container">
+		<div id="mydiary"><h1><span class="logo">My</span>Diary</h1></div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="sign.html">Sign in</a></li>
+				<li class="current"><a href="entry.html">Message</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>	
+	</div>
+
+
+   <div id="slidebar">
+   	<div class="toggle-btn" onclick="toggleSidebar()">
+   		<span></span>
+   		<span></span>
+   		<span></span>
+   	</div>
+   	<ul>
+   		<li><a href="entry.html">Add Entry</a></li>
+   		<li><a href="modify.html">Modify Entry</a></li>
+   		<li><a href="viewentry.html">View Entries</a></li>
+   		<li><a href="index.html">Log out</a></li>
+   	</ul>
+   </div>
+
+
+</header>
+</body>
+
+<section id="text">
+	<div class="contents">
+		<h1>Modify  Entry</h1>
+		<div >
+			<form class="entry">
+				<div>
+						<label>Title</label>
+					<input type="heading">
+				</div>
+				<div>
+					<label>Message</label>
+					<textarea type ="text" ></textarea>
+
+				</div>
+				
+				<div>
+					
+					<button class="button_1" type="submit">Submit</button>
+					
+				</div>
+			</form>
+		</div>
+	</div>
+</section>
+
+</html>
